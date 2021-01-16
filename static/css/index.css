@@ -1,0 +1,13 @@
+body {
+  padding: 15% 10vw;
+
+
+}
+div {
+  height: 100vh; display: flex; flex-direction: column; align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+scrollbar-width: none;
+ }
