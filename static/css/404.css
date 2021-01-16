@@ -9,6 +9,8 @@ body {
 }
 div {
     text-align: center;
+    height: 100vh;
+    width: 100vh;
 }
 h1 {
     color: white;
