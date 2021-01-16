@@ -1,12 +1,11 @@
 body {
-  padding: 15% 10vw;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
 }
 div {
-display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 html {
