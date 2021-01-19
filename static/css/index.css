@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
-div {
-}
-
 html {
   scroll-behavior: smooth;
 scrollbar-width: none;
  }
 .main {
+  flex-direction: column;
   display: flex;
 justify-content: center;
 align-items: center;
