@@ -3,6 +3,7 @@ html {
   scroll-behavior: smooth;
 scrollbar-width: none;
  }
+
 .main {
   flex-direction: column;
   display: flex;
