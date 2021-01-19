@@ -14,10 +14,10 @@ h3 {
 .projects {
     display: flex;
 }
-.projects > div {
+#projects > div {
     background-color: gray;
-  width: 25%;
-    height: 25%;
+  width: 25vh;
+    height: 25vh;
   margin: 25px;
   border-radius: 10px;
 }
