@@ -12,6 +12,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 .projects > div {
+    background-color: gray;
   width: 25% - 25px;
     height: 25% - 25px;
   margin: 25px;
