@@ -11,7 +11,7 @@ h3 {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-.projects {
+#projects {
     display: flex;
 }
 #projects > div {
