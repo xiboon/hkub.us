@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body {
+  height: 100vh;
+  padding: 0%;
+  margin: 0%;
+}
+.body {
+  height: 100%;
+}
+.main {
+  background-color: #212121;
+  height: 100%;
+}
+.textdiv {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.text {
+  color: white;
+  font-weight: 500;
+  font-family: 'Source Code Pro', monospace;
+}
+h1 {
+  font-size: 40px;
+}
+.about {
+  position: absolute;
+  right: 25%;
+  width: 20vw;
+}
+.img {
+  display: flex;
+  position: absolute;
+  left: 25%;
+  height: 100%;
+  align-items: center;
+}
+.button {
+  font-family: 'Material Icons';
+  color: white;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  box-shadow: 11px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  top: 0.5%;
+  right: 0.5%;
+  background-color: #616161;
+  border-radius: 50%;
+  border: 0px;
+}
+
+b {
+  font-weight: 700;
+}
