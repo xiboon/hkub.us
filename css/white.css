@@ -6,6 +6,7 @@
 }
 
 .text-light {
+  font-display: swap;
   color: black;
   font-family: 'Source Code Pro', monospace;
   font-weight: 500;
