@@ -1,6 +1,5 @@
 const date = 1259098620;
 let theme = true;
-console.log(Date.now() / 1000);
 let last;
 
 function roundUp(num, precision) {
@@ -11,10 +10,8 @@ function roundUp(num, precision) {
 setInterval(() => {
   const now = Math.round(Date.now() / 1000).toString();
   const age = (parseInt(now) - date) / 3600 / 24 / 365;
-  console.log((now - date) / 3600 / 24 / 365);
-  console.log(roundUp(age, 0.1));
   document.getElementById('age').innerHTML = roundUp(age, 7);
-}, 1000);
+}, 2000);
 
 // themes
 
