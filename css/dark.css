@@ -70,4 +70,9 @@ b {
     width: 70vw;
     margin-bottom: 10%;
   }
+  .button,
+  .button-light {
+    margin-right: 6px;
+    margin-top: 6px;
+  }
 }
