@@ -6,7 +6,6 @@
 }
 
 .text-light {
-  font-display: swap;
   color: black;
   font-family: 'Source Code Pro', monospace;
   font-weight: 500;
@@ -26,3 +25,4 @@
   border-radius: 50%;
   border: 0px;
 }
+

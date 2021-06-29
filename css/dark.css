@@ -56,3 +56,18 @@ h1 {
 b {
   font-weight: 700;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .textdiv {
+    flex-direction: column;
+  }
+  .about,
+  .img {
+    position: static !important;
+  }
+  .about {
+    text-align: center;
+    width: 70vw;
+    margin-bottom: 10%;
+  }
+}
