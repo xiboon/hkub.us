@@ -8,8 +8,8 @@ function roundUp(num, precision) {
 }
 
 setInterval(() => {
-  const now = Math.round(Date.now() / 1000).toString();
-  const age = (parseInt(now) - date) / 3600 / 24 / 365;
+  const now = Math.round(Date.now() / 1000);
+  const age = (now - date) / 3600 / 24 / 365;
   document.getElementById('age').innerHTML = roundUp(age, 7);
 }, 2000);
 
