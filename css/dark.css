@@ -49,6 +49,14 @@ article {
   font-weight: 900;
   font-size: xxx-large;
 }
+.header {
+  position: absolute;
+  left: 10%;
+}
+.description {
+  position: absolute;
+  right: 10%;
+}
 .description p {
   margin: 0 2%;
 
@@ -73,12 +81,12 @@ article {
 }
 
 .dark {
-  color: var(--white);
+  color: var(--white) !important;
   background: var(--black);
 }
 .navbaricon {
   font-size: 30px;
-  color: white;
+  color: #000000;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 20px;
@@ -100,8 +108,15 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  box-shadow: 10px 10px 5px -7px #00000030;
-  background-color: #000000;
+  background-color: #eeeeee;
   height: 60px;
   width: 100%;
+}
+.darkicon {
+  color: #ffffff !important;
+  transition: color 0.5s, background 0.5s;
+}
+.navdark {
+  transition: color 0.5s, background 0.5s;
+  background-color: #000000;
 }
