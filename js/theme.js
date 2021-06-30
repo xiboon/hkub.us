@@ -1,17 +1,20 @@
 let theme = true;
 function changeTheme() {
   theme = !theme;
-  let btn = document.getElementsByClassName('btn');
+  let btn = document.getElementById('btn');
+  let main = document.getElementById('main');
+  let dscp = document.getElementById('description');
+  let nick = document.getElementById('nick');
   if (!theme) {
-    document.getElementById('main').className = 'main-light';
-    document.getElementById('description').className = 'text-light';
-    document.getElementById('nick').className = 'text-light';
+    main.className = 'main-light';
+    dscp.className = 'text-light';
+    nick.className = 'text-light';
     btn.className = 'button-light';
     btn.innerHTML = 'dark_mode';
   } else {
-    document.getElementById('main').className = 'main';
-    document.getElementById('description').className = 'text';
-    document.getElementById('nick').className = 'text';
+    main.className = 'main';
+    dscp.className = 'text';
+    nick.className = 'text';
     btn.className = 'button';
     btn.innerHTML = 'light_mode';
   }
