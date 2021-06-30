@@ -35,6 +35,7 @@ main {
 article {
   width: 50vw;
   height: 100%;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +49,6 @@ article {
   font-weight: 900;
   font-size: xxx-large;
 }
-
 .description p {
   margin: 0 2%;
 
@@ -75,6 +75,9 @@ article {
 .dark {
   color: var(--white) !important;
   background: var(--black);
+}
+.home {
+  margin-left: 0px;
 }
 .navbaricon {
   font-size: 30px;

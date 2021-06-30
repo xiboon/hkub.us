@@ -4,4 +4,8 @@
     flex-direction: column;
     align-items: center;
   }
+  p {
+    width: 80vw;
+    margin-bottom: 30% !important;
+  }
 }
