@@ -85,7 +85,7 @@ article {
   max-width: 100%;
   max-height: 100%;
   color: var(--white) !important;
-  transition: none !important;
+  transition: background 1s !important;
   background-image: url('https://cdn.discordapp.com/attachments/810866716942925844/859833534810030110/Eric_Siu.jpg');
 }
 .ericnav {
