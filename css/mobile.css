@@ -1,49 +1,7 @@
 @media only screen and (max-width: 540px) {
-  .navbaricon {
-    font-family: 'Material Icons';
-    font-size: 40px;
-    color: white;
-    margin-left: 20px;
-    margin-top: 0px;
-  }
-  .main,
-  .main-light {
-    display: block;
-  }
-  .navbar {
-    position: absolute;
-    top: 0% !important;
-    flex-direction: row;
-    align-items: center;
-    height: 8%;
-    width: 100%;
-  }
-  .github {
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-  }
-  .button,
-  .button-light {
-    margin-right: 0.5% !important;
-    margin-top: 0.5% !important;
-  }
-  .textdiv {
+  main {
+    display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .about,
-  .setup,
-  .img {
-    position: static !important;
-  }
-  .setup {
-    width: 60vw;
-    text-align: center;
-  }
-  .about {
-    text-align: center;
-    width: 70vw;
-    margin-bottom: 10%;
   }
 }

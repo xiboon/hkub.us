@@ -1,68 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;900&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
-body {
-  height: 100vh;
-  padding: 0%;
-  margin: 0%;
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-.body {
-  height: 100%;
+
+:root {
+  --white: #f3f6f6;
+  --black: #1e1b1a;
 }
-.main {
-  background-color: #212121;
-  height: 100%;
-  display: flex;
-}
-.textdiv {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-.text {
-  color: white;
-  font-weight: 500;
+
+html {
   font-family: 'Source Code Pro', monospace;
 }
-h1 {
-  font-size: 40px;
+p {
+  width: 28vw;
 }
-.about {
-  position: absolute;
-  right: 25%;
-  width: 20vw;
+body {
+  margin: 0;
+  padding: 0;
+
+  transition: color 0.5s, background 0.5s;
+
+  color: var(--black);
+  background: var(--white);
 }
-.img {
+
+main {
+  width: 100vw;
+  height: 100vh;
+
   display: flex;
-  position: absolute;
-  left: 25%;
-  height: 100%;
-  align-items: center;
 }
-.setup {
+article {
+  width: 50vw;
+  height: 100%;
+
   display: flex;
-  position: absolute;
-  left: 25%;
-  height: 100%;
-  width: 20vw;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
+
+  text-align: center;
 }
-.button {
-  font-family: 'Material Icons';
-  color: white;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
+
+.header h1 {
+  margin: 0 2%;
+
+  font-weight: 900;
+  font-size: xxx-large;
+}
+.description p {
+  margin: 0 2%;
+
+  font-weight: 500;
+  font-size: larger;
+}
+
+.theme-dot {
+  width: 25px;
+  height: 25px;
+
+  margin: 1%;
+
   position: absolute;
-  box-shadow: 10px 10px 5px -8px #00000030;
-  top: 0.5%;
-  right: 0.5%;
-  background-color: #171717;
+  bottom: 0;
+  left: 0;
+
+  transition: background 0.5s;
+
+  background: var(--white);
   border-radius: 50%;
-  border: 0px;
 }
-b {
-  font-weight: 700;
+
+.dark {
+  color: var(--white);
+  background: var(--black);
 }
 .navbaricon {
   font-family: 'Material Icons';
@@ -78,6 +90,9 @@ b {
   margin-left: 20px;
   margin-right: 20px;
 }
+a {
+  text-decoration: none;
+}
 .navbar {
   align-self: center;
   position: absolute;
@@ -86,11 +101,8 @@ b {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  box-shadow: 10px 10px 5px -8px #00000030;
-  background-color: #424242;
+  box-shadow: 10px 10px 5px -7px #00000030;
+  background-color: #000000;
   height: 60px;
   width: 100%;
-}
-a {
-  text-decoration: none;
 }

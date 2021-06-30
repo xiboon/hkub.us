@@ -9,53 +9,42 @@
     />
     <meta name="robots" content="index, follow" />
     <meta name="copyright" content="nie posiadam" />
-    <meta name="language" content="EN" />
+    <meta name="language" content="PL" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/dark.css" />
     <link rel="stylesheet" type="text/css" href="css/mobile.css" />
-    <link rel="stylesheet" type="text/css" href="css/white.css" />
     <script src="js/theme.js"></script>
   </head>
   <body>
-    <div id="main" class="main">
+    <main>
       <div id="navbar" class="navbar">
         <a href="/"
-          ><div title="Home"><h3 class="navbaricon">home</h3></div></a
+          ><div><h3 class="navbaricon">home</h3></div></a
         >
         <a href="/setup"
-          ><div title="setup"><h3 class="navbaricon">computer</h3></div></a
+          ><div><h3 class="navbaricon">computer</h3></div></a
         >
-        <a title="GitHub" href="https://github.com/Xiboon"
+        <a href="https://github.com/Xiboon"
           ><div>
             <img src="/github-white.png" class="github" /></div
         ></a>
       </div>
-      <button class="button" id="btn" title="sex" onclick="changeTheme()">
-        light_mode
-      </button>
-      <div class="textdiv">
-        <div class="setup">
-          <h3 class="text" id="nick">
-            <b>Hardware</b><br /><br />
-            CPU - Intel Core i5 8250u<br />
-            GPU - Intel UHD Graphics 620<br />
-            Drive - an 320GB HDD<br />
-            RAM - 8GB
-          </h3>
-        </div>
-        <div class="about">
-          <h3 class="text" id="description">
-            <b>Software</b><br /><br />
-            Distro - Arch GNU/Linux<br />
-            Editor - Visual Studio Code<br />
-            Music player - Spotify<br />
-            Browser - Google Chrome<br />
-            DE - GNOME 40<br />
-            Shell - zsh<br />
-            Terminal - Alacritty<br />
-          </h3>
-        </div>
-      </div>
-    </div>
+      <article class="header">
+        <h1>software</h1>
+      </article>
+
+      <article class="description">
+        <p>
+          Distro - Arch GNU/Linux<br />
+          Editor - Visual Studio Code<br />
+          Music player - Spotify<br />
+          Browser - Google Chrome<br />
+          DE - GNOME 40<br />
+          Shell - zsh<br />
+          Terminal - Alacritty
+        </p>
+      </article>
+      <div class="theme-dot dark" onclick="theme()"></div>
+    </main>
   </body>
 </html>
