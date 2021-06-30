@@ -6,3 +6,9 @@ setInterval(() => {
   const age = (now - date) / 3600 / 24 / 365
   document.getElementById('age').innerHTML = age.toFixed(7)
 }, 2000)
+
+function clicked() {
+  let check = easteregg()
+  if (check) return
+  theme()
+}
