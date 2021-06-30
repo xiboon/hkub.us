@@ -9,7 +9,6 @@ function easteregg() {
 setInterval(() => {
   if (zerykowane) return
   if (troll === 5) {
-    console.log('trolled')
     body = document.querySelector('body')
     dot = document.querySelector('.theme-dot')
     navbar = document.querySelector('.navbar')
@@ -22,6 +21,7 @@ setInterval(() => {
     text.innerHTML = 'Eric Siu enjoyer'
     navbar.classList.toggle('ericnav')
     dot.classList.toggle('eric')
+    alert("You just got eric'd")
     zerykowane = true
   }
 }, 500)
