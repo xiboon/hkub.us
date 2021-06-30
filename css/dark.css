@@ -49,6 +49,10 @@ article {
   font-weight: 900;
   font-size: xxx-large;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+}
 .description p {
   margin: 0 2%;
 
