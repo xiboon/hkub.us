@@ -35,7 +35,6 @@ main {
 article {
   width: 50vw;
   height: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,14 +48,7 @@ article {
   font-weight: 900;
   font-size: xxx-large;
 }
-.header {
-  position: absolute;
-  left: 10%;
-}
-.description {
-  position: absolute;
-  right: 10%;
-}
+
 .description p {
   margin: 0 2%;
 
@@ -114,9 +106,7 @@ a {
 }
 .darkicon {
   color: #ffffff !important;
-  transition: color 0.5s, background 0.5s;
 }
 .navdark {
-  transition: color 0.5s, background 0.5s;
   background-color: #000000;
 }
