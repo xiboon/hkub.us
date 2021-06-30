@@ -12,21 +12,36 @@
     <meta name="language" content="EN" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/dark.css" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
     <link rel="stylesheet" type="text/css" href="css/white.css" />
     <script src="js/index.js"></script>
+    <script src="js/theme.js"></script>
   </head>
   <body>
     <div id="main" class="main">
-      <button class="button" id="btn" onclick="changeTheme()">
+      <div id="navbar" class="navbar">
+        <a href="/"
+          ><div><h3 class="navbaricon">home</h3></div></a
+        >
+        <a href="/setup"
+          ><div><h3 class="navbaricon">computer</h3></div></a
+        >
+        <a href="https://github.com/Xiboon"
+          ><div>
+            <img src="/img/github-white.png" class="github" /></div
+        ></a>
+      </div>
+      <button class="button" id="btn" title="sex" onclick="changeTheme()">
         light_mode
       </button>
       <div class="textdiv">
         <div class="img"><h1 class="text" id="nick">Xiboon</h1></div>
         <div class="about">
           <h3 class="text" id="description">
-            hej jestem xiboon mam
+            Hej, jestem Xiboon,
             <b id="age">11</b>
-            lat
+            letni developer w JavaScript, TypeScript, HTML i CSS (takwiem to nie
+            sa jezyki programowania??)
           </h3>
         </div>
       </div>
