@@ -120,6 +120,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  transition: background 0.5s, color 0.5s;
   background-color: #eeeeee;
   height: 60px;
   width: 100%;
