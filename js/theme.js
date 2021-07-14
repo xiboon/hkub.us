@@ -4,6 +4,10 @@ function theme() {
   navbar = document.querySelector('.navbar')
   gh = document.querySelector('.gh')
   icons = document.getElementsByClassName('navbaricon')
+  a = document.getElementsByClassName('darktext')
+  ;[...a].forEach(function (a) {
+    a.classList.toggle('darktext')
+  })
   ;[...icons].forEach(function (div) {
     div.classList.toggle('darkicon')
   })
