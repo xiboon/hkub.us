@@ -4,15 +4,15 @@ function theme() {
   navbar = document.querySelector('.navbar')
   gh = document.querySelector('.gh')
   icons = document.getElementsByClassName('navbaricon')
-  a = document.getElementsByClassName('darktext')
+  a = document.getElementsByClassName("a")
   ;[...a].forEach(function (a) {
-    a.classList.toggle('darktext')
+    a?.classList.toggle('darktext')
   })
   ;[...icons].forEach(function (div) {
-    div.classList.toggle('darkicon')
+    div?.classList.toggle('darkicon')
   })
-  body.classList.toggle('dark')
-  navbar.classList.toggle('navdark')
-  gh.classList.toggle('darktext')
-  dot.classList.toggle('dark')
+  body?.classList.toggle('dark')
+  navbar?.classList.toggle('navdark')
+  gh?.classList.toggle('darktext')
+  dot?.classList.toggle('dark')
 }
