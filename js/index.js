@@ -1,11 +1,11 @@
 function parseBool(val) {
-  return val === 'true'
+  return val === "true";
 }
 
-let themea = parseBool(localStorage.theme) ?? true
+let themea = parseBool(localStorage.theme) ?? true;
 
-if (!themea) theme()
+if (!themea) theme();
 function clicked() {
-  localStorage.setItem('theme', !parseBool(localStorage.theme))
-  theme()
+  localStorage.setItem("theme", !parseBool(localStorage.theme));
+  theme();
 }
