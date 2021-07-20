@@ -9,7 +9,7 @@ function theme() {
     a?.classList.toggle("darktext");
   });
   [...icons].forEach(function (div) {
-    div?.classList.toggle("darkicon");
+    div.classList.toggle("darkicon");
   });
   body?.classList.toggle("dark");
   navbar?.classList.toggle("navdark");
