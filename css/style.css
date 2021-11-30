@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;900&display=swap');
 *::after,
 *::before {
 	box-sizing: border-box;
@@ -9,94 +9,27 @@
 	--black: #1e1b1a;
 }
 html {
-	font-family: "Source Code Pro", monospace;
+	font-family: 'Source Code Pro', monospace;
+	overflow-y: hidden;
+}
+
+h1 {
+	font-size: 2.4rem;
 }
 p {
-	width: 50vw;
+	font-size: 1.1rem;
 }
-body {
-	margin: 0;
-	padding: 0;
-
-	transition: color 0.5s, background 0.5s;
-
-	color: var(--black);
-	background: var(--white);
-}
-
 main {
-	width: 100vw;
-	height: 100vh;
-
 	display: flex;
-	text-align: center;
 	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+	height: 100vh;
+	padding: 5vw;
+	padding-top: 0;
 }
 article {
-	width: 80vw;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-}
-
-.header h1 {
-	margin: 0 2%;
-	color: black !important;
-	font-weight: 900;
-	font-size: xxx-large;
-}
-.header {
-	margin-bottom: 50px;
 	display: flex;
 	flex-direction: column;
 }
-.header p {
-	align-self: center;
-}
-.description p {
-	margin: 0 2%;
-	color: black !important;
-	font-weight: 500;
-	font-size: larger;
-}
-
-.description {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.description div {
-	margin-top: 7px;
-}
-
-.theme-dot {
-	width: 25px;
-	height: 25px;
-
-	margin: 1%;
-
-	position: absolute;
-	bottom: 0;
-	left: 0;
-
-	background: var(--white);
-	border-radius: 50%;
-}
-
-.home {
-	margin-left: 0px;
-}
-a {
-	text-decoration: none;
-	color: black;
-	transition: color 0.5s;
-}
-
-@media only screen and (max-width: 540px) {
-	p {
-		width: 80vw;
-		margin-bottom: 30% !important;
-	}
+img {
+	height: 50px;
 }
