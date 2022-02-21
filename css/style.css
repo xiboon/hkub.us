@@ -79,6 +79,7 @@ img {
 	border-radius: 5%;
 	height: 100%;
 	width: 100%;
+	padding: 1vw;	
 }
 .item:hover {
 	background-color: rgba(0, 0, 0, 0.7) !important;
@@ -128,4 +129,18 @@ header h1 {
 }
 header p {
 	margin-top: 15px;
+}
+@media screen and (max-width: 900px) {
+	h1 {
+		font-size: 2.4rem;
+	}
+	p {
+		font-size: 1.2rem;
+	}
+}
+@media screen and (max-width: 600px) {
+.grid {
+	grid-template-columns: 80vw;
+	row-gap: 5vh;
+}
 }
