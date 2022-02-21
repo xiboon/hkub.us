@@ -1,27 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&display=swap');
+
 *::after,
 *::before {
 	box-sizing: border-box;
 }
-
+::-webkit-scrollbar {
+	display: none;
+}
 :root {
 	--white: #f3f6f6;
 	--black: #1e1b1a;
 }
-html {
+body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Source Code Pro', monospace;
-	overflow-y: hidden;
+}
+html {
+	background-color: #276cdb;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nunito', sans-serif;
+	color: var(--white);
+	overflow-x: hidden;
 }
 
 h1 {
-	font-size: 2.4rem;
+	font-size: 2.7rem;
 }
 p {
-	font-size: 1.1rem;
+	font-size: 1.4rem;
 }
-main {
+header {
+	background-image: url("../svg/bg.svg");
+	background-size: cover;
+	background-position: bottom;
 	display: flex;
 	align-items: center;
 	height: 100vh;
@@ -35,4 +47,85 @@ article {
 }
 img {
 	height: 50px;
+	width: 50px;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background-color: #0744a6;
+}
+.projects > h1 {
+	margin-top: 5vh;
+}
+.grid {
+	margin-top: 15vh;
+	display: grid;
+	grid-template-columns: 20vw 20vw;
+	column-gap: 10vw;
+	height: 35vh;
+}
+.item {
+	transition: background-color 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5%;
+	height: 100%;
+	width: 100%;
+}
+.item:hover {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.grid a {
+	height: 100%;
+	width: 100%;
+}
+.item p {
+	margin-top: 0;
+	text-align: center;
+	width: 90%; 
+	font-weight: 200;
+}
+img {
+	height: 70px;
+	width: 70px;
+}
+button {
+    font-weight: 400;
+    background-color: white;
+    font-family: Nunito, sans-serif;
+    width: fit-content;
+    color: rgb(56, 114, 242);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border-style: none;
+    border-color: initial;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.1s ease 0s;
+}
+button:hover {
+	background-color: rgb(236, 236, 236);
+	border-radius:4px;
+}
+button:focus {
+	transform: scale(0.95);
+}
+header h1 {
+	margin: 0;
+}
+header p {
+	margin-top: 15px;
 }
