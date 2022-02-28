@@ -65,8 +65,8 @@ img {
 .grid {
 	margin-top: 15vh;
 	display: grid;
-	grid-template-columns: 20vw 20vw;
-	column-gap: 10vw;
+	grid-template-columns: 20vw 20vw 20vw;
+	column-gap: 8vw;
 	height: 35vh;
 }
 .item {
