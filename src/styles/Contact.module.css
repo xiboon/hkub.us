@@ -1,0 +1,35 @@
+.header {
+    justify-content: center;
+
+}
+
+.header h2 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header a {
+    color: white;
+}
+
+.header svg {
+    height: max(4vh, 2vw) !important;
+    width: max(4vh, 2vw) !important;
+    margin: 0;
+    margin-right: .2em;
+}
+
+.header div {
+    width: 30vw;
+}
+
+.header a {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .header div {
+        width: initial;
+    }
+}

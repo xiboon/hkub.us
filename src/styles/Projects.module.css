@@ -1,0 +1,151 @@
+.header div {
+    width: 40%;
+    /* padding: 3vh 0; */
+}
+
+.header {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.header div {
+
+    margin: 0 3vw;
+}
+
+.project {
+    justify-content: center;
+    margin-top: 3vh;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: flex;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 3vh;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.project h3 {
+    margin-top: 7px;
+}
+
+.project h2 {
+    margin-bottom: .1em;
+}
+
+.project h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300 !important;
+}
+
+.project svg,
+.project img {
+    height: 3em;
+    width: 3em;
+    margin: 0 2em;
+}
+
+.project:hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.project div {
+    width: 90%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.website {
+    text-align: left;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    /* height: 10%; */
+    aspect-ratio: 16/9;
+    /* width: 10%; */
+    background-color: rgba(0, 0, 0, .4);
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 1vh 1vh;
+}
+
+.website h3 {
+    text-decoration: none;
+    margin-left: .7em;
+}
+
+.website img {
+    border-radius: 0 0 1vh 1vh;
+    width: 100%;
+}
+
+.websites {
+    width: 50rem !important;
+    text-align: right;
+}
+
+.websites div {
+    margin: 0;
+    gap: 2.5%;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project div {
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        flex-direction: column !important;
+        justify-content: center;
+        height: unset;
+    }
+
+    .websites div {
+        display: grid !important;
+        grid-template-columns: 90vw;
+        justify-content: center;
+    }
+
+    .projects {
+        display: flex;
+        align-items: center;
+    }
+
+    .project {
+        width: 90vw;
+    }
+
+    .project img,
+    .project svg {
+        margin: 0 1em;
+    }
+
+    .header div {
+        width: 100vw;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .website {
+        display: grid;
+        width: 100% !important;
+    }
+
+    .websites {
+        width: 100vw !important;
+    }
+
+    .project div {
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--navdark);
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.nav a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    padding: 0 !important;
+}
+
+.active {
+    color: var(--secondary) !important;
+    /* border-bottom: 2px solid; */
+}
+
+.icon {
+    margin-right: 0.4vw
+}
+
+@media screen and (max-width: 700px) {
+    .nav p {
+        display: none;
+    }
+
+    svg {
+        height: 2em;
+        width: 2em;
+    }
+}

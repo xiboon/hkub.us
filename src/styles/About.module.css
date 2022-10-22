@@ -1,0 +1,68 @@
+.avatar {
+    height: 5em;
+    border-radius: 50%;
+}
+
+.header {
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.header h2 {
+    font-size: 1.4em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 0 !important;
+    border-bottom: 2px solid white;
+    padding-bottom: 2.3vh;
+    margin-bottom: 0;
+}
+
+.header h1 {
+    color: var(--primary);
+    font-size: 2.3em;
+    font-weight: 800;
+    margin-left: 1vw;
+}
+
+.name {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
+}
+
+
+.technologies h2 {
+    margin-top: 2.3vh !important;
+    padding-bottom: 1vh;
+    border-bottom: 0;
+}
+
+.technologies svg {
+    margin-right: .5vw;
+    height: 1.6em;
+    width: 1.6em;
+}
+
+@media screen and (max-width: 700px) {
+    .technologies h2 {
+        margin-left: 0.15em;
+    }
+
+    .header h1 {
+        margin-left: 1vh !important;
+    }
+
+    .header h2 {
+        margin-left: 0.15em;
+    }
+}
