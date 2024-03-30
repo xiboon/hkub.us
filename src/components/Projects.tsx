@@ -13,15 +13,21 @@ export const Projects: React.FC = () => (
         <div>
             <h1>Projects</h1>
             <Project
+                name="Moosical"
+                description="An open-source selfhosted music streaming service"
+                url="https://github.com/xiboon/moosical-backend/"
+                icon={<AiOutlineQuestion></AiOutlineQuestion>}
+            ></Project>
+            <Project
                 name="Tiscord"
                 description="A fast, object-oriented Discord API library written in Typescript"
-                url="https://tiscord.me/"
+                url="https://tiscord.com/"
                 icon={<img src={tiscord} />}
             ></Project>
             <Project
                 name="Fluorine"
                 description="Fantastic discord bot, perfect for your discord server!"
-                url="https://fluorine.me/"
+                url="https://github.com/Fluorinebot/Fluorine/"
                 icon={<img style={{ borderRadius: '50%' }} src={fluorine} />}
             ></Project>
             <Project
@@ -34,10 +40,14 @@ export const Projects: React.FC = () => (
         <div className={Style.websites}>
             <h1>Websites</h1>
             <div>
-                <Website name="xiboon.tech" img={xiboontech}></Website>
-                <Website name="tiscord.me" img={tiscordme}></Website>
-                <Website name="fluorine.me" img={fluorineme}></Website>
-                <Website name="xiboon.me (offline)" img={xiboonme}></Website>
+                <Website name="xiboon.github.io" img={xiboontech}></Website>
+                <Website name="tiscord.com" img={tiscordme}></Website>
+                <Website name="fluorine.me" url="github.com/Fluorinebot/fluorine-site" img={fluorineme}></Website>
+                <Website
+                    name="xiboon.me (offline)"
+                    url="github.com/xiboon/xiboon.github.io/tree/0357acbe1344f44f280ebdafaf87f079fd83bc40"
+                    img={xiboonme}
+                ></Website>
             </div>
         </div>
     </header>

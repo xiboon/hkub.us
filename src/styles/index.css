@@ -1,22 +1,22 @@
 :root {
     --navdark: #18191c;
-    --bg: #202225;
-    --primary: #5865f2;
-    --secondary: #4287ff;
+    --bg: #202420;
+    --primary: #cb4343;
 }
 
 html {
     background-color: var(--bg);
 }
 
-body {
-    margin-top: 9vh !important;
-    margin: 0;
-}
 
 .App {
     height: 90vh;
     width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9vh !important;
+    margin: 0;
 }
 
 header {

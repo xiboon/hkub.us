@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a8754f1.css",
-    "main.js": "/static/js/main.be48890b.js",
+    "main.css": "/static/css/main.67ff73b4.css",
+    "main.js": "/static/js/main.d9ad27c1.js",
     "static/media/tiscord.png": "/static/media/tiscord.6aa9a13ecab9adf3f4ae.png",
     "static/media/tiscordme.png": "/static/media/tiscordme.c663b5dd27dfdc21dfb3.png",
     "static/media/fluorine.png": "/static/media/fluorine.dd624db03f3d7df1f2ad.png",
+    "static/media/xiboontech.png": "/static/media/xiboontech.f6d8e6ea8d56d59695c3.png",
     "static/media/xiboonme.png": "/static/media/xiboonme.b79960e482d41c171e82.png",
-    "static/media/logo.png": "/static/media/logo.301334e00af5ba236714.png",
     "static/media/fluorineme.png": "/static/media/fluorineme.d9e572aa608d72069604.png",
-    "static/media/xiboontech.png": "/static/media/xiboontech.6ba678b1ab04b7c15172.png",
     "index.html": "/index.html",
-    "main.3a8754f1.css.map": "/static/css/main.3a8754f1.css.map",
-    "main.be48890b.js.map": "/static/js/main.be48890b.js.map"
+    "main.67ff73b4.css.map": "/static/css/main.67ff73b4.css.map",
+    "main.d9ad27c1.js.map": "/static/js/main.d9ad27c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a8754f1.css",
-    "static/js/main.be48890b.js"
+    "static/css/main.67ff73b4.css",
+    "static/js/main.d9ad27c1.js"
   ]
 }

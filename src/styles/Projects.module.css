@@ -67,6 +67,7 @@ a {
     /* height: 10%; */
     aspect-ratio: 16/9;
     /* width: 10%; */
+    position: relative;
     background-color: rgba(0, 0, 0, .4);
     display: flex !important;
     justify-content: center;
@@ -80,7 +81,29 @@ a {
 }
 
 .website img {
+    /* position: absolute; */
     border-radius: 0 0 1vh 1vh;
+    width: 100%;
+}
+
+.website button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vh;
+    z-index: 999;
+    width: 3vh;
+    padding: 0.1vh;
+    background-color: var(--bg);
+    border: 0;
+    border-radius: 5px;
+}
+
+.website button svg {
+    height: 100%;
     width: 100%;
 }
 

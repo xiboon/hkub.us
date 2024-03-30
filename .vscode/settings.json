@@ -3,5 +3,8 @@
     "editor.formatOnSave": true,
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     }
 }

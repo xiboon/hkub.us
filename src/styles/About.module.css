@@ -15,7 +15,7 @@
     margin-top: 0 !important;
     border-bottom: 2px solid white;
     padding-bottom: 2.3vh;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .header h1 {
@@ -42,7 +42,7 @@
 
 
 .technologies h2 {
-    margin-top: 2.3vh !important;
+    margin-top: 1.5vh !important;
     padding-bottom: 1vh;
     border-bottom: 0;
 }

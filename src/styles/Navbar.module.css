@@ -27,7 +27,7 @@
 }
 
 .active {
-    color: var(--secondary) !important;
+    color: var(--primary) !important;
     /* border-bottom: 2px solid; */
 }
 
