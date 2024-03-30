@@ -48,4 +48,8 @@
         width: initial;
         grid-template-columns: 1fr;
     }
+
+    .header div * {
+        margin-bottom: 10px;
+    }
 }

@@ -97,13 +97,14 @@ a {
     z-index: 999;
     width: 3vh;
     padding: 0.1vh;
-    background-color: var(--bg);
+    background-color: var(--navdark);
     border: 0;
     border-radius: 5px;
 }
 
 .website button svg {
     height: 100%;
+    color: white;
     width: 100%;
 }
 
@@ -135,6 +136,10 @@ a {
         display: grid !important;
         grid-template-columns: 90vw;
         justify-content: center;
+    }
+
+    .website button {
+        display: none;
     }
 
     .projects {
